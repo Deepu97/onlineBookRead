@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.leftt{
+    display: flex;
+    align-items: center;
+}
+#img1 {
+    width: 4rem;
+    margin-left: 4rem;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+
+#design{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1rem;
+}
+
+.deep {
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    background: linear-gradient(yellow, orange); 
+    
+}
+.border{
+    box-shadow: 5px 5px 3px black;
+    display: flex;
+    flex-direction: column;
+    width:13rem;
+    justify-content: center;
+    align-items: center;
+    height:20rem;
+}
+#pera{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.myimg{
+    height:13rem;
+    width: 10rem;
+}
+#cen {
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    /* text-align: left; */
+    padding-left: 1rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+#icon {
+    font-size: 22px;
+    cursor: pointer;
+    background-color: green;
+   padding: 0.9rem;
+    color: white;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+.app {
+    display: flex;
+    background-color: blanchedalmond;
+    gap: 3rem;
+    height: 5rem;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+#anc{
+text-decoration: none;
+color: gray;
+}
+
+
+#pro{
+display:flex;
+margin: 3rem;
+gap:6rem;
+flex-wrap: wrap;
+   
+}
+#btn{
+    width:7rem;
+    height: 3rem;
+    background: linear-gradient(cornflowerblue,blueviolet);
+    border-radius: 2rem;
+    border: none;
+    margin-top: 1rem;
+    box-shadow: 4px 4px 3px black;
+}
+#deepu{
+    text-decoration: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 15px;
+}
+#non{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 22px;
+    background:linear-gradient(orange,rgb(20, 117, 228));
+  height: 5rem;
+color: white;
+}
+#h1{
+    text-align: center;
+}
+#you{
+    background: linear-gradient(orange,rgb(162, 20, 228));
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    font-family:monospace;
+    font-style: italic;
+}
+#show{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5rem;
+    margin:4rem;
+}
+#horror{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin:3rem;
+}
+
+
+.new {
+    background-image: url("./pexels-marta-dzedyshko-2067569.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vwh;
+    height: 25rem;
+    animation: change 20s infinite step-end;
+}
+#rambo{
+    background:linear-gradient(yellow,orange);
+}
+#bold{
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+@keyframes change {
+    0% {
+        background-image: url("./pexels-marta-dzedyshko-2067569.jpg");
+    }
+
+    50% {
+        background-image: url("./pexels-rafael-cosquiere-2041540.jpg");
+    }
+
+    100% {
+        background-image: url("./pexels-ricky-esquivel-1907785.jpg");
+    }
+}
+#name{
+   font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.app1 p{
+ 
+    color:rgb(109, 108, 201);
+    font-weight: 600;
+}
+.app2 p{
+  
+    color:rgb(109, 108, 201);
+    font-weight: 600;
+}
+#bold{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(167, 180, 92);
+    text-shadow: 2px 2px 4px black;
+}
+@media(max-width:430px){
+ 
+    #design p{
+        font-size: 12px;
+    }
+#cen{
+    width:5rem;
+    position: relative;
+    right:8rem;
+    font-size: 10px;
+  
+    height: 2rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#grow{
+    height: 2rem;
+    
+}
+#icon{
+    position: relative;
+    right: 8rem;
+    font-size: 15px;
+}
+
+
+ #img1{
+    position: relative;
+    right: 4rem;
+    width:2rem
+}
+#design{
+    position: relative;
+    right:4rem;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap:1rem; 
+  font-size: 15px; 
+
+  
+}
+#top{
+    width: 100vw;
+}
+.new{
+    width:100%;
+   
+}
+#non{
+    width:100%;
+}
+#you{
+    width:100%;
+}
+#name{
+    font-size: 10px
+    ;
+}
+
+}
+@media(max-width:380px){
+    #icon{
+        position: relative;
+        right:4rem;
+        font-size: 10px;
+        padding: 0.7rem;
+    }
+    #cen{
+        position: relative;
+        right: 4rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius:1rem ;
+    }
+    #top a{
+        font-size: 11px;
+    }
+   #name{
+    font-size: 10px;
+   }
+    
+}
